@@ -28,7 +28,7 @@ Export the head with the name "head_abs.dmx".
 
 -- CORRECTIVES --
 
-Place "head_abs.dmx" (in absolute state instead of relative) into the folder "cor_input".
+Place "head_abs.dmx" into the folder "cor_input".
 <img width="641" height="232" alt="image" src="https://github.com/user-attachments/assets/45f2bb6e-3363-4b0f-855d-cce4005a9aca" />
 
 Double click "HWM_Correctors_Conversion.bat" and run.
