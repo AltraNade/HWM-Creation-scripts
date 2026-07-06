@@ -8,6 +8,11 @@ This is a collection of lua and bat files to help speed up creating corrective s
 Place the folder "hwmcompiling" into the folder "SourceFilmmaker/game/sdktools".
 
 Set up dmxedit for use. Open the SFM SDK and click the mod you are using. It should then overwrite the VProject and set up dmxedit for use.
+<img width="337" height="481" alt="image" src="https://github.com/user-attachments/assets/14b75327-447a-48f1-aedd-85d001513697" />
+<img width="354" height="197" alt="image" src="https://github.com/user-attachments/assets/3b9ab286-eff2-4fb0-8cad-2e74488799bd" />
+<img width="794" height="551" alt="image" src="https://github.com/user-attachments/assets/8b6dff86-5f75-4d9f-a7d4-6c80a75a05d8" />
+
+
 
 -- BLENDER --
 
