@@ -1,0 +1,15 @@
+import bpy
+
+# get the selected object
+selected_object = bpy.context.object
+
+# get its shapekeys
+shape_keys = selected_object.data.shape_keys.key_blocks
+
+# loop through shapekeys and replace the names
+for key in shape_keys:
+    key.name = key.name.replace("-", "_")
+    
+# loop through shapekeys and replace the names
+for key in shape_keys:
+    key.name = key.name.replace("SELECT_", "SELECT-")
