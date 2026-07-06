@@ -6,6 +6,8 @@ This is a collection of lua and bat files to help speed up creating corrective s
 -- SETUP --
 
 Place the folder "hwmcompiling" into the folder "SourceFilmmaker/game/sdktools".
+<img width="533" height="210" alt="image" src="https://github.com/user-attachments/assets/42b40b40-107e-41f3-9877-5034584013f6" />
+
 
 Set up dmxedit for use. Open the SFM SDK and click the mod you are using. It should then overwrite the VProject and set up dmxedit for use.
 <img width="337" height="481" alt="image" src="https://github.com/user-attachments/assets/14b75327-447a-48f1-aedd-85d001513697" />
@@ -27,6 +29,7 @@ Export the head with the name "head_abs.dmx".
 -- CORRECTIVES --
 
 Place "head_abs.dmx" (in absolute state instead of relative) into the folder "cor_input".
+<img width="641" height="232" alt="image" src="https://github.com/user-attachments/assets/45f2bb6e-3363-4b0f-855d-cce4005a9aca" />
 
 Double click "HWM_Correctors_Conversion.bat" and run.
 
@@ -45,6 +48,7 @@ Export the adjusted head with the name "head_abs_cor_final.dmx"
 -- FINAL PASS --
 
 Place "head_abs_cor_final.dmx" into the folder "final_input".
+<img width="641" height="232" alt="image" src="https://github.com/user-attachments/assets/83575c4f-1439-47bc-a02d-8cb23dd154b6" />
 
 Double click "HWM_final_Conversion.bat" and run.
 
