@@ -11,7 +11,7 @@ Set up dmxedit for use. Open the SFM SDK and click the mod you are using. It sho
 
 -- BLENDER --
 
-In Blender, create the shape keys for your head. Import the file "SourceFilmmaker/game/sdktools/lua/reference_heads/" as a reference for shape keys, including selection groups (labelled with "SELECT-").
+In Blender, create the shape keys for your head. Import the file "SourceFilmmaker/game/sdktools/lua/reference_heads/tf_movies.dmx" as a reference for shape keys, including selection groups (labelled with "SELECT-").
 
 Add sliders for "TongueV", "TongueCurlUp", "TongueCurlDown", "TongueWide", "TongueNarrow", "TongueFunnel", "TongueLeft", "TongueRight", "TongueOut" and "TongueBack".
 
