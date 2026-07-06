@@ -1,14 +1,15 @@
 # HWM-Creation-scripts
-This is a collection of lua and bat files to help speed up creating corrective shapes for the flexes of your character models for SFM/Garry's Mod
-
-
+This is a collection of lua and bat files to help speed up creating corrective shapes for the flexes of your character models for SFM/Garry's Mod!
 
 -- HOW TO USE --
+
+-- SETUP --
 
 Place the folder "hwmcompiling" into the folder "SourceFilmmaker/game/sdktools".
 
 Set up dmxedit for use. Open the SFM SDK and click the mod you are using. It should then overwrite the VProject and set up dmxedit for use.
 
+-- BLENDER --
 
 In Blender, create the shape keys for your head. Import the file "SourceFilmmaker/game/sdktools/lua/reference_heads/" as a reference for shape keys, including selection groups (labelled with "SELECT-").
 
@@ -18,7 +19,7 @@ Make sure the corrective shapes are seperated with hyphens "-" instead of unders
 
 Export the head with the name "head_abs.dmx".
 
-
+-- CORRECTIVES --
 
 Place "head_abs.dmx" (in absolute state instead of relative) into the folder "cor_input".
 
@@ -26,17 +27,17 @@ Double click "HWM_Correctors_Conversion.bat" and run.
 
 A new dmx file should be generated named "head_abs_cor.dmx" in the folder "cor_output".
 
-
+-- BLENDER ADJUSTMENTS --
 
 Import "head_abs_cor.dmx" into blender 4.5 and make adjustments to the new shape keys.
 
 Create a new script in blender and copy the text from the file "rename_shapekeys"
 
-Select the adjusted head mesh and run the script. All the hyphens "-" will be replaced by underscores "_" except for sliders with "SELECT-".
+Select the adjusted head mesh and run the script. All the hyphens "-" will be replaced by underscores "_" except for sliders with "SELECT-". (This will make the final pass in dmxedit convert the correctives to a relative state!)
 
 Export the adjusted head with the name "head_abs_cor_final.dmx"
 
-
+-- FINAL PASS --
 
 Place "head_abs_cor_final.dmx" into the folder "final_input".
 
